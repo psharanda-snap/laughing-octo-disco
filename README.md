@@ -1,1 +1,3 @@
-# laughing-octo-disco
+# Camera Kit iOS SDK
+
+<NEW README>
