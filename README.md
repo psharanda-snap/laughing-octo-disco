@@ -1,1 +1,3 @@
-# laughing-octo-disco
+# Camera Kit iOS SDK
+
+HERE BE DRAGONS
