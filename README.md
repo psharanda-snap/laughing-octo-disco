@@ -18,7 +18,7 @@ Camera Kit brings the power of Snap's AR platform to your websites and mobile ap
 - World Tracking
 - Background Segmentation
 - Location AR
-- and [many more](https://developers.snap.com/lens-studio/learning-lens-studio/overview/) 
+- and [many more](https://developers.snap.com/camera-kit/ar-content/ar-overview) 
 
 ### iOS SDK
 - Simply attach AR input to `AVCaptureSession`
@@ -72,6 +72,8 @@ pod 'SCCameraKitReferenceSwiftUI'
 3. In your target's "General" settings, add the framework to the "Frameworks, Libraries, and Embedded Content" section
 
 ## Usage
+You can find a more detailed tutorial [here](https://developers.snap.com/camera-kit/integrate-sdk/mobile/ios)
+
 ### Initializing Camera Kit
 Obtain your API token on [Developer Portal](https://kit.snapchat.com/manage) beforehand
 
@@ -79,7 +81,7 @@ Obtain your API token on [Developer Portal](https://kit.snapchat.com/manage) bef
 import SCSDKCameraKit
 
 let sessionConfig = SessionConfig(apiToken: "<YOUR_API_TOKEN>")
-let lensesConfig = LensesConfig(cacheConfig: CacheConfig(lensContentMaxSize: 1024*1024*1024))
+let lensesConfig = LensesConfig(cacheConfig: CacheConfig(lensContentMaxSize: 150*1024*1024))
         
 let cameraKit = Session(sessionConfig: sessionConfig, lensesConfig: lensesConfig, errorHandler: self)
 ```
