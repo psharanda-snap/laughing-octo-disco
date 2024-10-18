@@ -38,7 +38,7 @@ Camera Kit brings the power of Snap's AR platform to your websites and mobile ap
 A core module that handles AR experiences:
 - `SCSDKCameraKit`
 
-A set of open-sourced, reusable UI components and utilities for easier development of Camera Kit based experiences:
+A set of [open-sourced](./Sources), reusable UI components and utilities for easier development of Camera Kit based experiences:
 - `SCSDKCameraKitReferenceUI`
 - `SCSDKCameraKitReferenceSwiftUI`
 
@@ -57,6 +57,13 @@ Modules required for [PushToDevice](P2D.md) support:
 If you use CocoaPods to manage your dependencies, simply add the following to your `Podfile`:
 ```ruby
 pod 'SCCameraKit'
+```
+
+If you'd like to use the Reference UI:
+
+```ruby
+pod 'SCCameraKitReferenceUI'
+pod 'SCCameraKitReferenceSwiftUI'
 ```
 
 ### Manual
