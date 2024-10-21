@@ -54,13 +54,11 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 
 <a name="1.28.0"></a>
 ## [1.28.0] - 2024-02-08
-### Bug Fixes
 <a name="1.27.0"></a>
 ## [1.27.0] - 2023-12-13
 ### Features
 - Lens Studio 5.0.2 support
 
-### Updates
 <a name="1.26.2"></a>
 ## [1.26.2] - 2023-11-13
 - Fix face detection for 3+ faces on IOS front camera.
@@ -75,7 +73,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 ### Features
 - Lens Studio 4.55 support
 
-### Updates
 ### Bug Fixes
 - Wrong camera orientation after device rotation on iOS 16 and later
 
@@ -87,7 +84,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 ### Features
 - Lens Studio 4.53 support
 
-### Bug Fixes
 <a name="1.24.0"></a>
 ## [1.24.0] - 2023-06-27
 ### Features
@@ -128,7 +124,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 
 <a name="1.20.0"></a>
 ## [1.20.0] - 2023-02-21
-### Updates
 ### Features
 - Lens Studio 4.40 support
 ### Bug Fixes
@@ -142,7 +137,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 
 <a name="1.19.1"></a>
 ## [1.19.1] - 2023-01-09
-### Bug Fixes
 <a name="1.19.0"></a>
 ## [1.19.0] - 2022-12-28
 ### Features
@@ -150,11 +144,8 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Add a new sample app that demonstrates a custom implementation of lenses carousel and camera preview layout
 - Add a debug menu to the sample app to customize lens groups at runtime
 
-### Updates
-### Bug Fixes
 <a name="1.18.1"></a>
 ## [1.18.1] - 2022-11-30
-### Bug Fixes
 <a name="1.18.0"></a>
 ## [1.18.0] - 2022-11-21
 ### Features
@@ -166,17 +157,14 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Staging Watermark applies on staging builds of Camera Kit integrations
 - Xcode 14 or above required
 - Discontinued support on iOS 11 and lower
-### Bug Fixes
 <a name="1.17.1"></a>
 ## [1.17.1] - 2022-11-30
-### Bug Fixes
 <a name="1.17.0"></a>
 ## [1.17.0] - 2022-10-12
 ### Features
 - Lens Studio 4.31 support
 - Add support for City-Scale AR Lenses (Beta)
 - Add support for Push-to-Device (P2D) feature (Beta), which allows developers to send Lenses from Lens Studio to their Camera Kit application for testing. Note that on Android, P2D is only supported if your application uses the built-in lenses carousel.
-### Bug Fixes
 <a name="1.16.0"></a>
 ## [1.16.0] - 2022-09-09
 ### Features
@@ -186,7 +174,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 
 <a name="1.15.1"></a>
 ## [1.15.1] - 2022-07-20
-### Bug Fixes
 <a name="1.15.0"></a>
 ## [1.15.0] - 2022-07-18
 ### Notes
@@ -194,10 +181,8 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 
 ### Features
 - Lens Studio 4.25 support
-### Bug Fixes
 <a name="1.14.1"></a>
 ## [1.14.1] - 2022-06-30
-### Bug Fixes
 <a name="1.14.0"></a>
 ## [1.14.0] - 2022-06-27
 ### Notes
@@ -215,7 +200,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - New tone-mapping and portrait camera adjustments
 - Add explicit viewport configuration to SCCameraKitPreviewView
 
-### Bug Fixes
 <a name="1.12.0"></a>
 ## [1.12.0] - 2022-04-22
 ### Notes
@@ -252,7 +236,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - :  Added missing "Privacy - Location When In Use Usage Description" entry in Sample App Info.plist
 <a name="1.9.2"></a>
 ## [1.9.2] - 2022-02-10
-### Bug Fixes
 <a name="1.9.1"></a>
 ## [1.9.1] - 2022-01-26
 ### Bug Fixes
@@ -293,7 +276,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - unknown_lens_hint blinks on activation
 - Rear camera not using LiDAR for depth when supported
 
-
 <a name="1.8.0"></a>
 ## [1.8.0] - 2021-12-07
 ### Bug Fixes
@@ -307,12 +289,10 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Support API token based authorization
 - Legal agreement prompt pop-up dialog support
 
-
 <a name="1.7.6"></a>
 ## [1.7.6] - 2021-11-08
 ### Bug Fixes
 -  Extension API mismatch
-
 
 <a name="1.7.5"></a>
 ## [1.7.5] - 2021-10-28
@@ -324,28 +304,23 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 ### Features
 -  Lens Studio 4.7 support
 
-
 <a name="1.7.4"></a>
 ## [1.7.4] - 2021-10-20
-### Bug Fixes
 <a name="1.7.3"></a>
 ## [1.7.3] - 2021-10-11
 ### Bug Fixes
 - Cache size config being ignored
-
 
 <a name="1.7.2"></a>
 ## [1.7.2] - 2021-10-07
 ### Bug Fixes
 - Remove private API usage
 
-
 <a name="1.7.1"></a>
 ## [1.7.1] - 2021-10-01
 ### Bug Fixes
 - Borders on captured images and videos
 - Process images at video resolution
-
 
 <a name="1.7.0"></a>
 ## [1.7.0] - 2021-09-22
@@ -357,106 +332,85 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - SwiftUI support
 - Added SRE metrics
 
-
 <a name="1.6.21"></a>
 ## [1.6.21] - 2021-10-11
 ### Bug Fixes
 - Cache size config being ignored
-
 
 <a name="1.6.20"></a>
 ## [1.6.20] - 2021-10-07
 ### Bug Fixes
 - Remove private API usage
 
-
 <a name="1.6.19"></a>
 ## [1.6.19] - 2021-10-01
 ### Bug Fixes
 - Borders on captured images and videos
-
 
 <a name="1.6.18"></a>
 ## [1.6.18] - 2021-09-29
 ### Bug Fixes
 -  Landmarkers localisation issues
 
-
 <a name="1.6.17"></a>
 ## [1.6.17] - 2021-09-22
-### Bug Fixes
 <a name="1.6.16"></a>
 ## [1.6.16] - 2021-09-20
 ### Bug Fixes
 - Button hit target may not have aligned with rendered UI
-
 
 <a name="1.6.15"></a>
 ## [1.6.15] - 2021-09-14
 ### Features
 -  LensStudio 4.5 support
 
-
 <a name="1.6.14"></a>
 ## [1.6.14] - 2021-09-03
 ### Bug Fixes
 -  Stability issues
-
 
 <a name="1.6.13"></a>
 ## [1.6.13] - 2021-09-02
 ### Features
 - Bitcode support
 
-
 <a name="1.6.12"></a>
 ## [1.6.12] - 2021-08-17
-### Bug Fixes
 <a name="1.6.11"></a>
 ## [1.6.11] - 2021-08-06
-### Bug Fixes
 <a name="1.6.10"></a>
 ## [1.6.10] - 2021-07-23
-### Bug Fixes
 <a name="1.6.9"></a>
 ## [1.6.9] - 2021-07-19
 ### Bug Fixes
 - Localization always giving priority to preferred languages with 3 letter ISO 639-2 codes
 
-
 <a name="1.6.8"></a>
 ## [1.6.8] - 2021-07-13
-### Bug Fixes
 <a name="1.6.7"></a>
 ## [1.6.7] - 2021-07-08
 ### Bug Fixes
 - Increase max lenses content size
 - Some lenses turn grayscale when recording
 
-
 <a name="1.6.6"></a>
 ## [1.6.6] - 2021-06-22
 ### Bug Fixes
 - Large photo picker images (panorama) exceed memory
 
-
 <a name="1.6.5"></a>
 ## [1.6.5] - 2021-06-17
-### Bug Fixes
 <a name="1.6.4"></a>
 ## [1.6.4] - 2021-06-16
 ### Bug Fixes
 - Previous lens would sometimes be applied after new one was applied
 
-
 <a name="1.6.3"></a>
 ## [1.6.3] - 2021-06-16
-### Bug Fixes
 <a name="1.6.1"></a>
 ## [1.6.1] - 2021-05-10
 ### Bug Fixes
 - Deadlock on stopping session
-
 
 <a name="1.6.0"></a>
 ## [1.6.0] - 2021-04-26
@@ -464,43 +418,33 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Landmarkers support
 - Media picker support
 
-
 <a name="1.5.11"></a>
 ## [1.5.11] - 2021-03-17
 
 <a name="1.5.10"></a>
 ## [1.5.10] - 2021-03-03
-### Bug Fixes
 <a name="1.5.9"></a>
 ## [1.5.9] - 2021-02-26
 
 <a name="1.5.8"></a>
 ## [1.5.8] - 2021-02-24
-### Features
 <a name="1.5.7"></a>
 ## [1.5.7] - 2021-02-18
-### Features
 <a name="1.5.6"></a>
 ## [1.5.6] - 2021-02-03
-### Bug Fixes
 <a name="1.5.5"></a>
 ## [1.5.5] - 2021-01-26
-### Bug Fixes
 <a name="1.5.4"></a>
 ## [1.5.4] - 2021-01-15
-### Features
 <a name="1.5.3"></a>
 ## [1.5.3] - 2021-01-06
 ### Bug Fixes
 - FileHandle exceptions and lens processor crash
 
-
 <a name="1.5.2"></a>
 ## [1.5.2] - 2020-12-22
-### Bug Fixes
 <a name="1.5.1"></a>
 ## [1.5.1] - 2020-12-22
-### Features
 <a name="1.5.0"></a>
 ## [1.5.0] - 2020-12-03
 ### Bug Fixes
@@ -508,7 +452,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 
 ### Features
 - Add first frame ready event to processor observer
-
 
 <a name="1.4.5"></a>
 ## [1.4.5] - 2020-12-01
@@ -538,7 +481,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Improve AVSessionInput camera performance
 - Expose lens preview model
 
-
 <a name="1.3.6"></a>
 ## [1.3.6] - 2020-11-04
 ### Bug Fixes
@@ -549,7 +491,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 
 ### Features
 - Expose lens preview model
-
 
 <a name="1.4.0"></a>
 ## [1.4.0] - 2020-10-28
@@ -565,20 +506,15 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Improve AVSessionInput camera performance
 - Expose lens preview model
 
-
 <a name="1.3.5"></a>
 ## [1.3.5] - 2020-10-20
-### Bug Fixes
-### Features
 <a name="1.3.4"></a>
 ## [1.3.4] - 2020-10-15
 ### Features
 - Expose lens preview model
 
-
 <a name="1.3.3"></a>
 ## [1.3.3] - 2020-10-15
-### Bug Fixes
 <a name="1.3.2"></a>
 ## [1.3.2] - 2020-10-15
 
@@ -589,16 +525,12 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Race condition sometimes when retrying requests due to no internet
 - Requests sometime failing if app is open for too long
 
-### Features
 <a name="1.3.0"></a>
 ## [1.3.0] - 2020-09-25
-### Features
 <a name="1.2.0"></a>
 ## [1.2.0] - 2020-08-27
-### Bug Fixes
 ### Features
 - Invalidate metadata cache on cold-start when network is available
-
 
 <a name="1.1.0"></a>
 ## [1.1.0] - 2020-07-29
@@ -606,20 +538,16 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Add support for dynamic lens launch data
 - Expose user data provider
 
-
 <a name="1.0.0"></a>
 ## [1.0.0] - 2020-07-08
-### Bug Fixes
 ### Features
 - Expose vendor data
 - Add lens prefetcher support
 - Add support for ARKit
 - Add support for localized hints
 
-
 <a name="0.5.0"></a>
 ## [0.5.0] - 2020-06-03
-### Bug Fixes
 <a name="0.4.0"></a>
 ## [0.4.0] - 2020-04-22
 ### Bug Fixes
@@ -635,7 +563,6 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Add support for remote assets and unbundle tracking data
 - Add sample video preview
 
-
 <a name="0.3.0"></a>
 ## [0.3.0] - 2020-03-30
 ### Bug Fixes
@@ -648,13 +575,10 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 - Add snap camera button
 - Add Carousel
 
-
 <a name="0.2.0"></a>
 ## [0.2.0] - 2020-02-27
-### Bug Fixes
 ### Features
 - Add support for remote lens metadata and content
-
 
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-02-12
