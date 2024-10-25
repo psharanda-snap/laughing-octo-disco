@@ -34,10 +34,9 @@ Camera Kit brings the power of Snap's AR platform to your websites and mobile ap
 - and [many more](https://developers.snap.com/camera-kit/ar-content/ar-overview) 
 
 ### iOS SDK
-- Simply attach AR input to `AVCaptureSession`
+- Integrate with AVCaptureSession, which allows to maintain full control over session configuration, management, and lifecycle
 - Fetch and display your lenses
 - Capture media
-- Test your lenses in development using [PushToDevice](P2D.md)
 - Leverage Reference UI modules to quickly build Camera Kit based experiences
 - Supports iOS 13.0+
 
@@ -55,7 +54,7 @@ A set of [open-sourced](./Sources), reusable UI components and utilities for eas
 - `SCSDKCameraKitReferenceUI`
 - `SCSDKCameraKitReferenceSwiftUI`
 
-Modules required for [PushToDevice](P2D.md) support:
+Modules required for testing your in-development lenses (see [Push-to-Device](https://developers.snap.com/camera-kit/guides/mobile-customization/in-app-lens-testing)):
 - `SCSDKCameraKitBaseExtension`
 - `SCSDKCameraKitLoginKitAuth`
 - `SCSDKCameraKitPushToDeviceExtension`
