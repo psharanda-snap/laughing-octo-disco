@@ -7,6 +7,8 @@ and the Camera Kit SDK adheres to [Semantic Versioning](https://semver.org/spec/
 
 <a name="unreleased"></a>
 ## [Unreleased]
+- Introduced dedicated iOS repository (https://github.com/Snapchat/camera-kit-ios-sdk), which enables Swift Package Manager support
+
 <a name="1.35.0"></a>
 ## [1.35.0] - 2024-10-16
 - Lens Studio 5.2 support
